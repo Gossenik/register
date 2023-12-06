@@ -1,0 +1,22 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-not-a.dev",
+    "subdomain": "gigachad",
+
+    "owner": {
+        "repo": "https://github.com/Gossenik/gigachad",
+        "email": "gosowlos@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "gigachad.com",
+        "MX": ["mx1.gigachad.com", "mx2.gigachad.com"],
+        "NS": ["ns1.gigachad.com", "ns2.gigachad.com"],
+        "TXT": ["gigachad_verification=1234567890"]
+    },
+
+    "proxied": false
+}
